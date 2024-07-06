@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Header from './components/Header/Header'
+import HomeCarousel from './components/HomeCarousel/HomeCarousel'
+import Footer from './components/Footer/Footer'
+import Trending from './components/Trending/Trending'
+import StayConnected from './components/connected/StayConnected'
+import MobileApp from './components/mobileApp/MobileApp'
+import Notbar from './components/notbar/Notbar'
+import Empowerment from './components/Empowerment/Empowerment'
+import Testimonials from './components/Testimonails/Testimonails'
+import NewCollection from './components/NewCollection/NewCollection'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Notbar />
+      <Header />
+      <HomeCarousel />
+      <Trending />
+      <NewCollection />
+      <Testimonials />
+      <Empowerment />
+      <MobileApp />
+      <StayConnected />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
