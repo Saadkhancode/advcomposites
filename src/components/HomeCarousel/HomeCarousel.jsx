@@ -69,7 +69,7 @@ function HomeCarousel() {
           })
         }
 
-      </Carousel>;
+      </Carousel>
     </div>
   )
 }

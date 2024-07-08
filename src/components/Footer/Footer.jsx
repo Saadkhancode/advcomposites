@@ -145,7 +145,7 @@ const Footer = () => {
 
           </div>
         </div>
-
+        <hr class="border-t border-t-theme-text/30 mt-10"></hr>
         <div className="mt-8 text-center">
           <p>© 2024 Mvintage - Powered by Shopify</p>
         </div>

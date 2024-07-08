@@ -9,6 +9,8 @@ import Notbar from './components/notbar/Notbar'
 import Empowerment from './components/Empowerment/Empowerment'
 import Testimonials from './components/Testimonails/Testimonails'
 import NewCollection from './components/NewCollection/NewCollection'
+import BackInStock from './components/backInStock/BackInStock'
+import BestSellers from './components/bestSellers/BestSellers'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Header />
       <HomeCarousel />
       <Trending />
+      <BestSellers />
+      <BackInStock />
       <NewCollection />
       <Testimonials />
       <Empowerment />

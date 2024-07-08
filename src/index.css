@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.react-multi-carousel-dot--active button{
+  background: #dda5ad !important;
+}

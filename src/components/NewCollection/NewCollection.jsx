@@ -3,7 +3,7 @@ import React from 'react'
 function NewCollection() {
   return (
     <>
-      <div className="image-banner bg-theme-bg text-theme-text color-group-1 fullwidth pt-0 pb-sm responsive">
+      <div className="image-banner mb-10 mt-10 bg-theme-bg text-theme-text color-group-1 fullwidth pt-0 pb-sm responsive">
         <figure className="relative isolate grid w-full md:min-h-[620px] min-h-[340px]" >
           <div className="absolute inset-0 z-0 h-full w-full">
             <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop" preload="none" className="absolute inset-0 w-full h-full z-0 object-cover" poster="//mvintage.com/cdn/shop/files/preview_images/448a628059184dbb8760c17d553a4e7f.thumbnail.0000000000_2048x.jpg?v=1718957965"><source src="//mvintage.com/cdn/shop/videos/c/vp/448a628059184dbb8760c17d553a4e7f/448a628059184dbb8760c17d553a4e7f.HD-1080p-7.2Mbps-30727116.mp4?v=0" type="video/mp4" /><img src="//mvintage.com/cdn/shop/files/preview_images/448a628059184dbb8760c17d553a4e7f.thumbnail.0000000000_2048x.jpg?v=1718957965" /></video>
